@@ -1,0 +1,43 @@
+.MainLeft {
+  width: 30%;
+  background-color: yellow;
+  height: 100vh;
+  margin-top: 45px;
+}
+
+.tong-du-an__ten-du-an {
+  position: relative
+}
+
+.tong-du-an__ten-du-an:hover::before {
+  position: absolute;
+  content: url(../Media/Untitled-2.png);
+  top: 0%;
+  bottom: 0%;
+  margin: auto;
+  left: 1%;
+  height: 20px;
+}
+
+.MainLeft .title {
+  padding: 15px 20%;
+  /* font-size: 20px; */
+  background-color: #ffffff;
+  color: black;
+}
+
+.MainLeft .title a {
+  color: black;
+}
+
+.MainLeft .tong-du-an .tong-du-an__title {
+  text-align: center;
+  font-weight: bold;
+  background-color: #f7f7f7;
+  padding: 15px 10px;
+}
+
+.tong-du-an__ten-du-an {
+  margin-bottom: 10px;
+  padding: 5px 150px 0px 20px
+}

@@ -1,0 +1,7 @@
+.LeftCol{
+    height: 100vh;
+    position: fixed;
+    width: 5%;
+    background: linear-gradient(45deg,#33505e 0%,#4CAF50 100%);
+    top: 0;
+}

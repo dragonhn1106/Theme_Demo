@@ -1,0 +1,105 @@
+.MainRight {
+    width: 70%;
+    background-color: red;
+    margin-top: 45px;
+}
+
+.MainRight .MainRight--top {
+    padding: 5px 10px !important;
+}
+
+.MainRight .MainRight--top__menu ul {
+    list-style-type: none;
+}
+
+.MainRight .MainRight--top__menu ul li {
+    margin-right: 10px;
+}
+
+.MainRight .MainRight--top__menu ul li p {
+    margin: 0;
+}
+
+.MainRight--main table thead {
+    background-color: #f9f9f9;
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.MainRight--main table tbody {
+    background-color: #fff;
+    color: black;
+}
+
+.MainRight--main table td .date-time {
+    color: #8c9091;
+    font-size: 14px;
+}
+
+.MainRight--main table td .ti-le-hoan-thanh {
+    width: 90%;
+    height: 15px;
+    margin: auto;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    position: relative;
+    margin-right: 5px !important;
+}
+
+.MainRight--main table td .ti-le-hoan-thanh::after {
+    position: absolute;
+    content: '';
+    width: 60%;
+    height: 100%;
+    background-color: #3edcdb;
+    top: 0;
+    border-radius: 10px;
+}
+
+.MainRight--main table td .muc-do-uu-tien {
+    background-color: #fcccc8;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 40px;
+    color: #827675
+}
+
+.MainRight--main table td .tong-so-nguoi-tham-gia {
+    position: relative;
+}
+
+.MainRight--main table td .tong-so-nguoi-tham-gia .btn-add-user {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    padding: 1px 0;
+    text-align: center;
+    top: 0;
+    left: 60px;
+    background-color: #fff;
+    border: 1px solid #c4c7ca;
+    color: #c4c7ca;
+}
+
+.MainRight--main table td .tong-so-nguoi-tham-gia .user-2 {
+    position: absolute;
+    top: 0;
+    left: 25px;
+}
+
+.MainRight--main table td .tong-so-nguoi-tham-gia .user-n {
+    position: absolute;
+    top: 0;
+    left: 40px;
+    width: 21px;
+    height: 21px;
+    border-radius: 100%;
+    background-color: #7abfe7;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    border: 2px solid #fff;
+    top: 0;
+
+}

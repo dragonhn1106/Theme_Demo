@@ -1,0 +1,10 @@
+.TopNav {
+    margin-left: 5%;
+    background-color: #fff;
+    height: 45px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 95%;
+    top: 0;
+  }
+  
